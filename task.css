@@ -1,0 +1,234 @@
+body {
+  height: 100%;
+}
+
+nav li {
+  letter-spacing: 3px;
+  font-size: 14px;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  margin: auto;
+}
+
+a:hover {
+  color: #31b7d3 !important;
+}
+
+.black-item {
+  color: black !important;
+}
+
+.blue-item {
+  color: #31b7d3 !important;
+}
+
+.button-div {
+  margin-right: 30px;
+  border: none !important;
+}
+
+.button-div button {
+  background: white;
+  color: black;
+  height: 43px;
+  width: 210px;
+  font-size: 13.5px;
+  border-radius: 25px;
+  letter-spacing: 5px;
+  border: 1.5px solid rgba(48, 75, 92, 0.08);
+}
+
+.button-div button:hover {
+  border-color: #31b7d3;
+  color: #31b7d3;
+}
+
+.button-div .header-drop .country-name .jcf-select-drop-content {
+  border: 1px solid #dad4d4;
+}
+
+.button-div .header-drop .jcf-select {
+  border: transparent;
+}
+
+.button-div .header-drop .jcf-select-opener {
+  background: transparent;
+  background-image: url("images/double-arrow.png");
+  background-position: center;
+  background-size: cover;
+  margin-right: 10px;
+  margin-top: 25px;
+  height: 10px;
+  width: 10px;
+}
+
+.button-div .header-drop .jcf-select-text {
+  padding: 16px;
+}
+
+.button-div .header-drop .jcf-select-drop-content {
+  border: 1px solid grey;
+}
+
+.home {
+  background-image: url("images/map.png");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.home .img-div {
+  position: relative;
+  top: 50px;
+  right: 200px;
+}
+
+.home .card .card-img-top {
+  background-image: url("images/office.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.home .card .card-img-top .title {
+  color: white;
+  font-size: 25px;
+  margin-left: 20px;
+}
+
+.home .card .card-img-top .title .span-2 {
+  font-weight: bold;
+}
+
+.home .card .card-img-top .title .span-1 {
+  font-weight: normal;
+}
+
+.home .card .card-img-top .title .adress-drop {
+  margin-left: 4px;
+  margin-top: 16px;
+}
+
+.home .card .card-img-top .title .adress-drop .jcf-select {
+  height: 40px;
+  color: black;
+  font-size: 32px;
+  padding: 5px;
+  width: 240px;
+  border-radius: 5px;
+}
+
+.home .card .card-img-top .title .adress-drop .jcf-select .jcf-select-appearance {
+  font-size: 20px;
+}
+
+.home .card .card-img-top .title .adress-drop .jcf-select-opener {
+  background: transparent;
+  background-image: url("images/double-arrow.png");
+  background-position: center;
+  background-size: cover;
+  line-height: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+  height: 10px;
+  width: 10px;
+}
+
+.home .card .card-body .card-subtitle i {
+  color: #31b7d3;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.home .card .card-body .grey-text {
+  color: #a3b8c4;
+  margin-left: 32px;
+  font-size: 16px;
+}
+
+.home .card .card-body p {
+  color: #b4c4ce;
+}
+
+footer {
+  background-image: url("images/Footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  color: #8aa4b4;
+  font-size: 15px;
+}
+
+footer .container {
+  height: 100%;
+}
+
+footer .container .footer-top {
+  position: relative;
+  top: 60px;
+}
+
+@media screen and (max-width: 765px) {
+  footer .container .footer-top .div-1 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+
+footer .container .footer-top h6 {
+  color: white;
+}
+
+footer .container .footer-top .div-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+}
+
+footer .container .footer-top .div-1 .logo-div {
+  margin-bottom: 20px;
+}
+
+footer .container .footer-top .div-1 h6 {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+footer .container .footer-top .div-2 {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+}
+
+footer .container .footer-top .div-2 li {
+  list-style: none;
+  width: 49%;
+  padding: 10px;
+  display: inline-block;
+}
+
+footer .container .footer-top .div-2 li a {
+  color: #8aa4b4 !important;
+}
+/*# sourceMappingURL=task.css.map */
